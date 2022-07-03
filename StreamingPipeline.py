@@ -10,8 +10,6 @@ from apache_beam.transforms.window import FixedWindows
 from bigquery_schema_generator.generate_schema import SchemaGenerator, read_existing_schema_from_file
 from google.cloud import bigquery
 
-#Create Parser
-
 parser = argparse.ArgumentParser()
 
 
